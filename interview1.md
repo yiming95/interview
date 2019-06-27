@@ -5,19 +5,27 @@
 ## Before interview
 1. Study the organisation's website
 
-	Company |Job Description
+	Company |Job Description | Close Date
 	:---- | :--- | :--- 
-	TradieCart| Front end web developer
-	LexX Technologies| Software Engineer Intern
-	University of Melbourne - Department of General Practice| Analyst/Programmer
+	TradieCart| Front end web developer| **6.25**
+	LexX Technologies| Software Engineer Intern | **6.19**
+	University of Melbourne - Department of General Practice| Analyst/Programmer| **6.24**
+	PROFWARE PTY LYD| Data Scientist | **7.2**
+	PROFWARE PTY LYD| Software Engineer Intern | **7.2**
+	STEM HUB | Software Engineering Interns | **7.4**
+	Darkspede Pty Ltd | Web System Developer | **6.24**
 	
 2. Re-read your application.
 
 	CV |Skills
 	:---- | :--- | :--- 
-	TradieCart| Qunar internship, frontend, **Leetcode**.
-	LexX Technologies| Machine learning, **NLP**, **information retrieval**, AWS, BERT, frontend. 
-	University of Melbourne - Department of General Practice| Thesis, **SWING GUI**, AWS, **MySQL**, NLP, frontend.
+	TradieCart, Front end web developer| Qunar internship, frontend, Leetcode.
+	LexX Technologies, Software Engineer| Machine learning, NLP, information retrieval, AWS, BERT, frontend. 
+	University of Melbourne - Department of General Practice, Analyst/Programmer| Thesis, SWING GUI, AWS, MySQL, NLP, frontend.
+	PROFWARE PTY LYD, Data Scientist | Machine learning, NLP,information retrieval, frontend
+	PROFWARE PTY LYD, Software Engineering | Qunar internship, frontend, university projects
+	STEM HUB, Software Engineering | Qunar internship, frontend, AJAX, JSON, CouchDB, MySQL
+	Darkspede Pty Ltd, Web System Developer | Qunar internship, frontend, AJAX, JSON, CouchDB, MySQL
 	
 3. Review the most common **interview questions**.
 
@@ -25,9 +33,9 @@
 
 5. Prepare a couple of questions to ask at the **end of the interview**.
 
-	- Question1:
-	- Question2:
-	- Question3:
+	- Question1: May I ask how do you feel work in this company?
+	- Question2: May I ask the culture of this company and working atmosphere? 
+	- Question3: What is the current project of your company?
 
 ## Standard Questions (Open-ended)
 
