@@ -1,6 +1,7 @@
 # Frontend Interview keypoints
 
-<p align="center"><img src="./Pictures/mel.jpg" width = "15%"/></p>
+<p align="center"><img src="./Pictures/mel.jpg" width = "15%"/>   &nbsp &nbsp &nbsp &nbsp &nbsp
+<img src="./Pictures/html.png" width = "15%"/></p>
 
 ## HTML
 
@@ -287,7 +288,11 @@ HTML5语义化标签是指正确的标签包含了正确的内容，结构良好
 
 定义：iframe元素会创建包含另一个文档的内联框架
 
-提示：可以将提示文字放在 <iframe></iframe>之间，来提示某些不支持iframe的浏览器
+提示：可以将提示文字放在 
+
+	<iframe></iframe>
+
+之间，来提示某些不支持iframe的浏览器
 
 缺点：
 
@@ -529,64 +534,4 @@ CSS3背景如background-size，background-origin等；
 CSS3 2D，3D转换如transform等；CSS3动画如animation等。 
 
 
-## CSS
 
-### 1. 说一下css盒模型
-
-简介：就是用来装页面上的元素的矩形区域。CSS中的盒子模型包括IE盒子模型和标准的W3C盒子模型。
-box-sizing(有3个值哦)：border-box,padding-box,content-box.
-
-标准盒子模型：
-<p align="center"><img src="./Pictures/box1.png" width = "80%"/></p>
-
-IE盒子模型：
-<p align="center"><img src="./Pictures/ie-box.png" width = "80%"/></p>
-
-**区别：**从图中我们可以看出，这两种盒子模型最主要的区别就是width的包含范围，在标准的盒子模型中，width指content部分的宽度，在IE盒子模型中，width表示content+padding+border这三个部分的宽度，故这使得在计算整个盒子的宽度时存在着差异：
-
-标准盒子模型的盒子宽度：左右border+左右padding+width
-
-IE盒子模型的盒子宽度：width
-
-在CSS3中引入了box-sizing属性，box-sizing:content-box;表示标准的盒子模型，box-sizing:border-box表示的是IE盒子模型
-
-最后，前面我们还提到了，box-sizing:padding-box,这个属性值的宽度包含了左右padding+width
-
-也很好理解性记忆，包含什么，width就从什么开始算起。
-
-### 2. 画一条0.5px的线
-
-采用meta viewport的方式:
-
-	<meta name="viewport" content="initial-scale=1.0, 
-	maximum-scale=1.0, user-scalable=no" />
-
-### 3. link标签和import标签的区别
-
-link属于html标签，而@import是css提供的。
-
-页面被加载时，link会同时被加载，而@import引用的css会等到页面加载结束后加载。
-
-link是html标签，因此没有兼容性，而@import只有IE5以上才能识别。
-
-link方式样式的权重高于@import的。
-
-### 4. transition和animation的区别
-
-Animation和transition大部分属性是相同的，他们都是随时间改变元素的属性值，他们的主要区别是transition需要触发一个事件才能改变属性，而animation不需要触发任何事件的情况下才会随时间改变属性值，并且transition为2帧，从from .... to，而animation可以一帧一帧的。
-
-### 5. Flex布局
-
-Flex是Flexible Box的缩写，意为"弹性布局"，用来为盒状模型提供最大的灵活性。
-
-布局的传统解决方案，基于盒状模型，依赖display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。
-
-简单的分为容器属性和元素属性
-容器的属性：
-
-
-
-
-
-
-## JavaScript
